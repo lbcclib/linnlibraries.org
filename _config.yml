@@ -1,2 +1,13 @@
-theme: jekyll-theme-architect
+remote_theme: daattali/beautiful-jekyll@3.0.0
 title: [Linn Libraries of Oregon]
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+      show-avatar: true
+plugins:
+  - jekyll-remote-theme
+
+avatar: "/assets/images/logo.png"
