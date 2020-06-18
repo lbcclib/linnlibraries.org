@@ -18,3 +18,4 @@ navbar-links:
   Member libraries: "members"
   Staff tools:
     - Circulation policies: "staff-tools/circulation-policies"
+    - Cataloging: "staff-tools/cataloging/index"
