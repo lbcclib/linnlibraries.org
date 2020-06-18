@@ -11,3 +11,8 @@ plugins:
   - jekyll-remote-theme
 
 avatar: "/assets/images/logo.png"
+navbar-links:
+  About: "index"
+  Books and more: "https://catalog.linnlibraries.org/"
+  Staff tools:
+    - Quick Start Guide: "staff-tools/circulation-policies"
