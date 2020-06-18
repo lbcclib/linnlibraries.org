@@ -1,7 +1,24 @@
 ---
+ext-js:
+  -
+    href: "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/build/ol.js"
+ext-css:
+  -
+    href: "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css"
+js:
+  - "assets/js/member_map.js"
 ---
+<div id="map" class="map" style="height:700px;width: 100%"></div>
 <ul>
 {% for member in site.data.members %}
   <li>{{ member.name }}</li>
 {% endfor %}
 </ul>
+
+
+{% for member in site.data.members %}
+  <div id="{{ member.name }}" class="ol-popup">
+     <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+     <div id="popup-content"></div>
+  </div>
+{% endfor %} 

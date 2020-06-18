@@ -16,3 +16,5 @@
     - Debit card
     - Credit card
   phone_payments: false
+  long: -123.0773447
+  lat: 44.628208

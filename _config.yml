@@ -15,5 +15,6 @@ navbar-links:
   About: "index"
   Books and more: "https://catalog.linnlibraries.org/"
   Research and homework: "research"
+  Member libraries: "members"
   Staff tools:
     - Circulation policies: "staff-tools/circulation-policies"
