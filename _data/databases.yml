@@ -1,0 +1,417 @@
+-
+  name: Academic OneFile
+  topics:
+    - Arts and music
+	- Health and wellness
+	- History
+	- Scholarly sources
+	- Science and technology
+	- Society
+  audience:
+    - Teens
+	- Adults
+  description: 'Academic OneFile is an authoritative and comprehensive source for peer-reviewed articles from the world''s leading journals and reference sources.'
+-
+  name: Agriculture Collection
+  topics:
+    - Agriculture and gardening
+  audience:
+    - Adults
+  description: This collection consists of academic journals, magazines, and news sources with millions of articles focused on agriculture and related fields.  Articles cover a wide range of agriculture-related topics -- from practical aspects of farming to cutting edge scientific research in horticulture.
+-
+  name: Books & Authors
+  topics:
+    - Literature and reading
+  audience:
+    - Adults
+  description: Lively reviews and recommendations make book selection fun.
+-
+  name: Business Collection
+  topics:
+    - Business and careers
+  audience:
+    - Adults
+  description: Articles on accounting, marketing and management, and related fields
+-
+  name: Business Economics and Theory
+  topics:
+    - Business and careers
+	- Scholarly sources
+  audience:
+    - Adults
+  description: This collection is useful for those in business classes or with a general interest in economics.  It contains hundreds of magazines and academic journals focused on topics in the field of business and economics.
+-
+  name: Business Insights: Global
+  topics:
+    - Business and careers
+  audience:
+    - Adults
+  description: This database provides a wealth of information on global economics, including industry overviews, investment reports, global business news, analysis of hundreds of global companies, and case studies.
+-
+  name: Communications and Mass Media Collection
+  topics:
+    - Newspapers and magazines
+	- Society
+  audience:
+    - Adults
+  description: This collection contains full-text magazine and journal articles covering advertising and public relations, literature and writing, linguistics, and many more.
+-
+  name: Computer Database
+  topics:
+    - Science and technology
+  audience:
+    - Adults
+  description: Use this database to find computer-related product introductions, news and reviews in areas such as hardware, software, electronics, engineering, communications and the application of technology.
+-
+  name: Criminal Justice Collection
+  topics:
+    - Legal
+	- Society
+  audience:
+    - Adults
+  description: This collection covers all aspects of the criminal justice system, from law enforcement to the courts, with hundreds of magazines, journals, and news sources.  
+-
+  name: Culinary Arts Collection
+  topics:
+    - Business and careers
+	- Health and wellness
+	- Repair and trades
+	- Society
+  audience:
+    - Teens
+	- Adults
+  description: "This collection includes thousands of searchable recipes, restaurant reviews and industry information, from cooking and nutrition magazines and culinary journals.\n "
+-
+  name: Diversity Studies Collection
+  topics:
+    - History
+	- Society
+  audience:
+    - Adults
+  description: This collection explores cultural differences, contributions and influences in our global community, and contains articles from more than 150 journals.
+-
+  name: Educator's Reference Complete
+  topics:
+    - Scholarly sources
+  audience:
+    - Adults
+  description: This collection focuses on topics of educational principles, child development and psychology, and best practices in education.  Many journal and magazine articles, and even book chapters, are available in full-text.
+-
+  name: Environmental Studies and Policy Collection
+  topics:
+    - Scholarly sources
+	- Science and technology
+	- Society
+  audience:
+    - Adults
+  description: Many full-text articles from magazines and some full-text academic journal articles are available in this collection, which provides different perspectives in the field of environmental issues and policy.  
+-
+  name: Fine arts and music collection
+  topics:
+    - Arts and music
+  audience:
+    - Adults
+  description: If you are researching topics in the fine arts, such as drama, music, art history, or filmmaking, this collection is for you.  There are many full-text magazine and academic journal articles available.
+-
+  name: Gale Virtual Reference Library
+  topics:
+    - Arts and music
+	- Health and wellness
+	- History
+	- Scholarly sources
+	- Science and technology
+	- Society
+  audience:
+    - Teens
+	- Adults
+  description: From arts to technology -- the Gale Virtual Reference Library has a valuable resource for you, no matter what your topic of interest.  This database contains hundreds of ebooks including encyclopedias and expert writings on thousands of subjects for your use.
+-
+  name: Gardening, Landscape and Horticulture Collection
+  topics:
+    - Agriculture and gardening
+  audience:
+    - Adults
+  description: This collection includes magazine and journal articles about gardening, landscaping, and other areas of horticulture, both practical and scientific.  
+-
+  name: Gender Studies Collection
+  topics:
+    - Society
+  audience:
+    - Adults
+  description: "This collection of journal articles covers topics such as gender studies, family and marital issues, health aspects, and many more.\n "
+-
+  name: General OneFile
+  topics:
+    - Arts and music
+	- Business and careers
+	- Health and wellness
+	- Newspapers and magazines
+	- Science and technology
+	- Society
+  audience:
+    - Adults
+  description: News and magazine articles on a wide variety of topics, including business, computers, current events, economics, education, environmental issues, health care, hobbies, humanities, law, literature and art, politics, science, social science, sports, technology, and many general interest topics.
+-
+  name: General Science Collection
+  topics:
+    - Scholarly sources
+	- Science and technology
+  audience:
+    - Adults
+  description: This collection contains millions of peer-reviewed journal and magazine articles including general science topics, such as climate change, genetically modified organisms, alternative energy, health issues, NASA, etc.
+-
+  name: Greenr
+  topics:
+    - Science and technology
+	- Society
+  audience:
+    - Adults
+  description: Multimedia coverage of environmental issues, including health care and climate change.
+-
+  name: Health and Wellness Resource Center and Alternative Health Module
+  topics:
+    - Health and wellness
+  audience:
+    - Teens
+	- Adults
+  description: This database contains medical, statistical, health, and related information from a wide variety of sources, including magazines, journals, newsletters, pamphlets, and references sources.  All content has been reviewed by medical experts.
+-
+  name: Health Reference Center Academic
+  topics:
+    - Health and wellness
+  audience:
+    - Adults
+  description: This database contains health- and medical-related topics from academic journals, magazines, and news sources.
+-
+  name: Home Improvement Collection
+  topics:
+    - Repair and trades
+  audience:
+    - Adults
+  description: For hobbyists and trade professionals alike, this collection includes topics such as architectural techniques, tool and material selection, zoning requirements, and many more.
+-
+  name: Hospitality, Tourism, and Leisure Collection
+  topics:
+    - Business and careers
+  audience:
+    - Adults
+  description: Articles on the hospitality and tourism fields, plus travel guides and more
+-
+  name: Information Science and Library Issues Collection
+  topics:
+    - Scholarly sources
+  audience:
+    - Adults
+  description: This collection will provide information professionals with articles from academic journals and magazines.  It includes topics like information infrastructure, data processing techniques, metadata architectures, and more.
+-
+  name: Informe Académico
+  topics:
+    - Business and careers
+	- Health and wellness
+	- Newspapers and magazines
+	- Science and technology
+	- Society
+  audience:
+    - Adults
+  description: Una colección de revistas hispánicas con textos completos. Abarca negocios, salud, tecnología, cultura, temas de actualidad y otras materias.
+-
+  name: Insurance and Liability Collection
+  topics:
+    - Business and careers
+  audience:
+    - Adults
+  description: Covering topics like mortgage banking, commercial insurance, product liability, workers compensation and more, this collection of journals will be of interest to individual property owners, as well as large corporations.
+-
+  name: Kids InfoBits
+  topics:
+    - Arts and music
+	- Health and wellness
+	- History
+	- Science and technology
+	- Society
+  audience:
+    - Kids
+  description: This is for kids from kindergarten to 5th grade. The subjects include animals, geography, music and movies, people, plants, sports, art, technology, and more.
+-
+  name: LearningExpress Library
+  topics:
+    - Business and careers
+  audience:
+    - Kids
+	- Teens
+	- Adults
+  description: College center, school center (grades K-12), software tutorials, adult learning center, career center, high school equivalency center, college prep center, and recursos en español.
+-
+  name: Legal Information Reference Center
+  topics:
+    - Legal
+  audience:
+    - Adults
+  description: "Includes NOLO books and forms, which explain many common legal issues for non-lawyers.\nTo log in, use the username \\"Linn\\" and the password \\"Oregon\\" (without quotes)."
+-
+  name: LegalTrac
+  topics:
+    - Legal
+	- Scholarly sources
+  audience:
+    - Adults
+  description: Students, law school faculty and legal researchers will find articles from major law reviews, legal newspapers, bar association journals and international legal journals, plus law-related articles from over 1,000 additional business and general interest titles.
+-
+  name: LitFinder
+  topics:
+    - Literature and reading
+  audience:
+    - Adults
+  description: Literary works, biographies, images and much more for the lit student.
+-
+  name: National Geographic Kids
+  topics:
+    - History
+	- Science and technology
+	- Society
+  audience:
+    - Kids
+  description: Kids can look at pictures, or read books and magazines.  They can explore topics like animals, the environment, history, people and cultures, places, and science & technology.
+-
+  name: Nursing and Allied Health Collection
+  topics:
+    - Health and wellness
+	- Science and technology
+  audience:
+    - Adults
+  description: All aspects of the nursing profession -- from direct patient care to health care administration -- are covered in this collection.  This will be useful for both professionals and nursing students.
+-
+  name: Nursing Resource Center
+  topics:
+    - Health and wellness
+	- Science and technology
+  audience:
+    - Adults
+  description: This resource is made just for nursing students!  There are full-text reference books, content for research papers, drug monographs, multimedia content, and much more.
+-
+  name: Onefile News
+  topics:
+    - Newspapers and magazines
+  audience:
+    - Adults
+  description: This innovative full-text newspaper resource allows users to search articles instantly by title, headline, date, author, newspaper section, or other fields. Gale OneFile: News provides access to more than 2,300 major U.S.
+-
+  name: Opposing Viewpoints In Context
+  topics:
+    - Scholarly sources
+	- Science and technology
+	- Society
+  audience:
+    - Teens
+	- Adults
+  description: This resource presents both sides of today’s hot social issues, from Arctic National Wildlife Refuge drilling to illegal immigrants and Islamic fundamentalism to vaccines.  Recognized experts and respected journalists bring perspective and balance to controversial issues.
+-
+  name: Physical Therapy and Sports Medicine Collection
+  topics:
+    - Health and wellness
+  audience:
+    - Adults
+  description: 'This database contains both magazine and journal articles about sports and sports medicine.  Note that by default, the database only searches magazines -- be sure to click on "Academic Journals" if you''re looking for scholarly sources. '
+-
+  name: Popular culture collection
+  topics:
+    - Arts and music
+	- History
+	- Society
+  audience:
+    - Adults
+  description: Magazines, images, videos, and a handful of scholarly journals, covering U.S. Popular Culture from the 1980s to the present day.
+-
+  name: Popular Magazines
+  topics:
+    - Newspapers and magazines
+  audience:
+    - Adults
+  description: A collection of over 1,000 popular magazines.
+-
+  name: PowerSearch
+  topics:
+    - Newspapers and magazines
+	- Scholarly sources
+  audience:
+    - Adults
+  description: Search across dozens of databases, thousands of magazines and journals, and millions of sources.  If you are doing a comprehensive search for all the resources on your topic, this is a good place to start.
+-
+  name: Psychology Collection
+  topics:
+    - Health and wellness
+	- Society
+  audience:
+    - Adults
+  description: Magazine and journal articles about a number of psychology topics.  By default, this database only searches magazines.  Once you enter your search terms, though, you can click on "Academic Journals", "Books", "News", or "Videos" to find additional sources on your topic.
+-
+  name: Research in Context
+  topics:
+    - Scholarly sources
+  audience:
+    - Kids
+	- Teens
+  description: Academic articles, images, topic selections, and more for middle schoolers
+-
+  name: Small Business Collection
+  topics:
+    - Business and careers
+  audience:
+    - Adults
+  description: Current news and analysis from business journals.
+-
+  name: Small Business Resource Center
+  topics:
+    - Business and careers
+  audience:
+    - Adults
+  description: A great place for business owners to find sample business plans, browse expert advice, and search for industry news.
+-
+  name: Student Edition - K12
+  topics:
+    - Newspapers and magazines
+	- Society
+  audience:
+    - Kids
+  description: 'A good place to find information about things that interest you.  If you can''t find anything using the regular search, you can also try using the "Keyword Search" button on the left side of your screen.'
+-
+  name: Student Resources In Context
+  topics:
+    - History
+	- Newspapers and magazines
+	- Quick reference
+	- Science and technology
+	- Society
+  audience:
+    - Teens
+  description: A good place to find sources for your paper.  Try using the "Browse Topics" link if you need some help coming up with a topic.
+-
+  name: U.S. History Collection
+  topics:
+    - History
+  audience:
+    - Adults
+  description: Recent scholarly sources about American History.
+-
+  name: U.S. History In Context
+  topics:
+    - History
+  audience:
+    - Teens
+	- Adults
+  description: An excellent way to learn more about a historical topic, whether you are writing a paper or just have an interest in history.  U.S. History in context searches scholarly sources, primary sources, images, and news to provide a nice variety of materials about your topic.
+-
+  name: War and Terrorism Collection
+  topics:
+    - Newspapers and magazines
+	- Society
+  audience:
+    - Adults
+  description: A collection of news sources that focus on war and terrorism.  For best results, try using specific search terms, like the name of a current conflict, person, event, or organization.
+-
+  name: World History Collection
+  topics:
+    - History
+  audience:
+    - Adults
+  description: Over 125 full-text history journals, covering ancient and modern history.  World History Collection mainly searches academic journals, but includes a handful of popular sources and illustrations as well.
