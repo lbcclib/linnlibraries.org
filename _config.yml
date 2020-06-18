@@ -14,5 +14,6 @@ avatar: "/assets/images/logo.png"
 navbar-links:
   About: "index"
   Books and more: "https://catalog.linnlibraries.org/"
+  Research and homework: "research"
   Staff tools:
-    - Quick Start Guide: "staff-tools/circulation-policies"
+    - Circulation policies: "staff-tools/circulation-policies"
