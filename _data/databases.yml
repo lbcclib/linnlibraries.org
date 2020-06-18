@@ -2,14 +2,14 @@
   name: Academic OneFile
   topics:
     - Arts and music
-	- Health and wellness
-	- History
-	- Scholarly sources
-	- Science and technology
-	- Society
+    - Health and wellness
+    - History
+    - Scholarly sources
+    - Science and technology
+    - Society
   audience:
     - Teens
-	- Adults
+    - Adults
   description: 'Academic OneFile is an authoritative and comprehensive source for peer-reviewed articles from the world''s leading journals and reference sources.'
 -
   name: Agriculture Collection
@@ -36,7 +36,7 @@
   name: Business Economics and Theory
   topics:
     - Business and careers
-	- Scholarly sources
+    - Scholarly sources
   audience:
     - Adults
   description: This collection is useful for those in business classes or with a general interest in economics.  It contains hundreds of magazines and academic journals focused on topics in the field of business and economics.
@@ -51,7 +51,7 @@
   name: Communications and Mass Media Collection
   topics:
     - Newspapers and magazines
-	- Society
+    - Society
   audience:
     - Adults
   description: This collection contains full-text magazine and journal articles covering advertising and public relations, literature and writing, linguistics, and many more.
@@ -66,7 +66,7 @@
   name: Criminal Justice Collection
   topics:
     - Legal
-	- Society
+    - Society
   audience:
     - Adults
   description: This collection covers all aspects of the criminal justice system, from law enforcement to the courts, with hundreds of magazines, journals, and news sources.  
@@ -74,18 +74,18 @@
   name: Culinary Arts Collection
   topics:
     - Business and careers
-	- Health and wellness
-	- Repair and trades
-	- Society
+    - Health and wellness
+    - Repair and trades
+    - Society
   audience:
     - Teens
-	- Adults
+    - Adults
   description: "This collection includes thousands of searchable recipes, restaurant reviews and industry information, from cooking and nutrition magazines and culinary journals.\n "
 -
   name: Diversity Studies Collection
   topics:
     - History
-	- Society
+    - Society
   audience:
     - Adults
   description: This collection explores cultural differences, contributions and influences in our global community, and contains articles from more than 150 journals.
@@ -100,8 +100,8 @@
   name: Environmental Studies and Policy Collection
   topics:
     - Scholarly sources
-	- Science and technology
-	- Society
+    - Science and technology
+    - Society
   audience:
     - Adults
   description: Many full-text articles from magazines and some full-text academic journal articles are available in this collection, which provides different perspectives in the field of environmental issues and policy.  
@@ -116,14 +116,14 @@
   name: Gale Virtual Reference Library
   topics:
     - Arts and music
-	- Health and wellness
-	- History
-	- Scholarly sources
-	- Science and technology
-	- Society
+    - Health and wellness
+    - History
+    - Scholarly sources
+    - Science and technology
+    - Society
   audience:
     - Teens
-	- Adults
+    - Adults
   description: From arts to technology -- the Gale Virtual Reference Library has a valuable resource for you, no matter what your topic of interest.  This database contains hundreds of ebooks including encyclopedias and expert writings on thousands of subjects for your use.
 -
   name: Gardening, Landscape and Horticulture Collection
@@ -143,11 +143,11 @@
   name: General OneFile
   topics:
     - Arts and music
-	- Business and careers
-	- Health and wellness
-	- Newspapers and magazines
-	- Science and technology
-	- Society
+    - Business and careers
+    - Health and wellness
+    - Newspapers and magazines
+    - Science and technology
+    - Society
   audience:
     - Adults
   description: News and magazine articles on a wide variety of topics, including business, computers, current events, economics, education, environmental issues, health care, hobbies, humanities, law, literature and art, politics, science, social science, sports, technology, and many general interest topics.
@@ -155,7 +155,7 @@
   name: General Science Collection
   topics:
     - Scholarly sources
-	- Science and technology
+    - Science and technology
   audience:
     - Adults
   description: This collection contains millions of peer-reviewed journal and magazine articles including general science topics, such as climate change, genetically modified organisms, alternative energy, health issues, NASA, etc.
@@ -163,7 +163,7 @@
   name: Greenr
   topics:
     - Science and technology
-	- Society
+    - Society
   audience:
     - Adults
   description: Multimedia coverage of environmental issues, including health care and climate change.
@@ -173,7 +173,7 @@
     - Health and wellness
   audience:
     - Teens
-	- Adults
+    - Adults
   description: This database contains medical, statistical, health, and related information from a wide variety of sources, including magazines, journals, newsletters, pamphlets, and references sources.  All content has been reviewed by medical experts.
 -
   name: Health Reference Center Academic
@@ -207,10 +207,10 @@
   name: Informe Académico
   topics:
     - Business and careers
-	- Health and wellness
-	- Newspapers and magazines
-	- Science and technology
-	- Society
+    - Health and wellness
+    - Newspapers and magazines
+    - Science and technology
+    - Society
   audience:
     - Adults
   description: Una colección de revistas hispánicas con textos completos. Abarca negocios, salud, tecnología, cultura, temas de actualidad y otras materias.
@@ -225,10 +225,10 @@
   name: Kids InfoBits
   topics:
     - Arts and music
-	- Health and wellness
-	- History
-	- Science and technology
-	- Society
+    - Health and wellness
+    - History
+    - Science and technology
+    - Society
   audience:
     - Kids
   description: This is for kids from kindergarten to 5th grade. The subjects include animals, geography, music and movies, people, plants, sports, art, technology, and more.
@@ -238,8 +238,8 @@
     - Business and careers
   audience:
     - Kids
-	- Teens
-	- Adults
+    - Teens
+    - Adults
   description: College center, school center (grades K-12), software tutorials, adult learning center, career center, high school equivalency center, college prep center, and recursos en español.
 -
   name: Legal Information Reference Center
@@ -252,7 +252,7 @@
   name: LegalTrac
   topics:
     - Legal
-	- Scholarly sources
+    - Scholarly sources
   audience:
     - Adults
   description: Students, law school faculty and legal researchers will find articles from major law reviews, legal newspapers, bar association journals and international legal journals, plus law-related articles from over 1,000 additional business and general interest titles.
@@ -267,8 +267,8 @@
   name: National Geographic Kids
   topics:
     - History
-	- Science and technology
-	- Society
+    - Science and technology
+    - Society
   audience:
     - Kids
   description: Kids can look at pictures, or read books and magazines.  They can explore topics like animals, the environment, history, people and cultures, places, and science & technology.
@@ -276,7 +276,7 @@
   name: Nursing and Allied Health Collection
   topics:
     - Health and wellness
-	- Science and technology
+    - Science and technology
   audience:
     - Adults
   description: All aspects of the nursing profession -- from direct patient care to health care administration -- are covered in this collection.  This will be useful for both professionals and nursing students.
@@ -284,7 +284,7 @@
   name: Nursing Resource Center
   topics:
     - Health and wellness
-	- Science and technology
+    - Science and technology
   audience:
     - Adults
   description: This resource is made just for nursing students!  There are full-text reference books, content for research papers, drug monographs, multimedia content, and much more.
@@ -299,11 +299,11 @@
   name: Opposing Viewpoints In Context
   topics:
     - Scholarly sources
-	- Science and technology
-	- Society
+    - Science and technology
+    - Society
   audience:
     - Teens
-	- Adults
+    - Adults
   description: This resource presents both sides of today’s hot social issues, from Arctic National Wildlife Refuge drilling to illegal immigrants and Islamic fundamentalism to vaccines.  Recognized experts and respected journalists bring perspective and balance to controversial issues.
 -
   name: Physical Therapy and Sports Medicine Collection
@@ -316,8 +316,8 @@
   name: Popular culture collection
   topics:
     - Arts and music
-	- History
-	- Society
+    - History
+    - Society
   audience:
     - Adults
   description: Magazines, images, videos, and a handful of scholarly journals, covering U.S. Popular Culture from the 1980s to the present day.
@@ -332,7 +332,7 @@
   name: PowerSearch
   topics:
     - Newspapers and magazines
-	- Scholarly sources
+    - Scholarly sources
   audience:
     - Adults
   description: Search across dozens of databases, thousands of magazines and journals, and millions of sources.  If you are doing a comprehensive search for all the resources on your topic, this is a good place to start.
@@ -340,7 +340,7 @@
   name: Psychology Collection
   topics:
     - Health and wellness
-	- Society
+    - Society
   audience:
     - Adults
   description: Magazine and journal articles about a number of psychology topics.  By default, this database only searches magazines.  Once you enter your search terms, though, you can click on "Academic Journals", "Books", "News", or "Videos" to find additional sources on your topic.
@@ -350,7 +350,7 @@
     - Scholarly sources
   audience:
     - Kids
-	- Teens
+    - Teens
   description: Academic articles, images, topic selections, and more for middle schoolers
 -
   name: Small Business Collection
@@ -370,7 +370,7 @@
   name: Student Edition - K12
   topics:
     - Newspapers and magazines
-	- Society
+    - Society
   audience:
     - Kids
   description: 'A good place to find information about things that interest you.  If you can''t find anything using the regular search, you can also try using the "Keyword Search" button on the left side of your screen.'
@@ -378,10 +378,10 @@
   name: Student Resources In Context
   topics:
     - History
-	- Newspapers and magazines
-	- Quick reference
-	- Science and technology
-	- Society
+    - Newspapers and magazines
+    - Quick reference
+    - Science and technology
+    - Society
   audience:
     - Teens
   description: A good place to find sources for your paper.  Try using the "Browse Topics" link if you need some help coming up with a topic.
@@ -398,13 +398,13 @@
     - History
   audience:
     - Teens
-	- Adults
+    - Adults
   description: An excellent way to learn more about a historical topic, whether you are writing a paper or just have an interest in history.  U.S. History in context searches scholarly sources, primary sources, images, and news to provide a nice variety of materials about your topic.
 -
   name: War and Terrorism Collection
   topics:
     - Newspapers and magazines
-	- Society
+    - Society
   audience:
     - Adults
   description: A collection of news sources that focus on war and terrorism.  For best results, try using specific search terms, like the name of a current conflict, person, event, or organization.
