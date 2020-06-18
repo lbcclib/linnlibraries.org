@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+<p>We are a group of libraries throughout Linn County who work together to provide great library materials and experiences.</p>
+<p>Linn County does not currently have a county-wide library system.  While this makes it more difficult for libraries to meet the needs of patrons in our county, the libraries of this group have developed a number of innovative ways to serve you:
+<ul>
+<li>We provide courier service between select Linn Libraries, so that cardholders can request items from across the county and pick them up at their own local library.</li>
 
-You can use the [editor on GitHub](https://github.com/lbcclib/linnlibraries.org/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<li>We share a <a href="http://libcat.linnbenton.edu/">catalog</a> between all of our libraries.  Using this catalog, you can find items from libraries across the county with a single click.</li>
+<li>We participate in the <a href="http://librariesoforegon.org/passport">Oregon Library Passport Program</a>. If you have a library card at one of our libraries, you can receive a complimentary library card from any other library in our consortium, as well as from other libraries throughout our state.</li>
+<li>We provide access and support to numerous databases for research and homework, which have been purchased by the <a href="http://librariesoforegon.org/home">Oregon State Library</a> and <a href="http://www.oregon.gov/SOLL/Pages/index.aspx">Oregon Law Library</a>.</li>
+</ul>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p>Thanks for taking a moment to learn about our group.  If you have any questions about the Linn Libraries Consortium, please don't hesitate to ask at your local library. </p>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lbcclib/linnlibraries.org/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
