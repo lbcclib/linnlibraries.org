@@ -247,7 +247,7 @@
     - Legal
   audience:
     - Adults
-  description: "Includes NOLO books and forms, which explain many common legal issues for non-lawyers.\nTo log in, use the username \\"Linn\\" and the password \\"Oregon\\" (without quotes)."
+  description: Includes NOLO books and forms, which explain many common legal issues for non-lawyers. To log in, use the username "Linn" and the password "Oregon" (without quotes).
 -
   name: LegalTrac
   topics:
@@ -294,7 +294,7 @@
     - Newspapers and magazines
   audience:
     - Adults
-  description: This innovative full-text newspaper resource allows users to search articles instantly by title, headline, date, author, newspaper section, or other fields. Gale OneFile: News provides access to more than 2,300 major U.S.
+  description: "This innovative full-text newspaper resource allows users to search articles instantly by title, headline, date, author, newspaper section, or other fields. Gale OneFile: News provides access to more than 2,300 major U.S. papers."
 -
   name: Opposing Viewpoints In Context
   topics:
@@ -304,7 +304,7 @@
   audience:
     - Teens
     - Adults
-  description: This resource presents both sides of today’s hot social issues, from Arctic National Wildlife Refuge drilling to illegal immigrants and Islamic fundamentalism to vaccines.  Recognized experts and respected journalists bring perspective and balance to controversial issues.
+  description: This resource presents both sides of today's hot social issues, from Arctic National Wildlife Refuge drilling to illegal immigrants and Islamic fundamentalism to vaccines.  Recognized experts and respected journalists bring perspective and balance to controversial issues.
 -
   name: Physical Therapy and Sports Medicine Collection
   topics:
