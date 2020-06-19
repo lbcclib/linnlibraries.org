@@ -1,5 +1,6 @@
 remote_theme: daattali/beautiful-jekyll@3.0.0
-title: [Linn Libraries of Oregon]
+title: Linn Libraries of Oregon
+author: Linn Libraries Consortium
 defaults:
   -
     scope:
