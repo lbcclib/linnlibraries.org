@@ -2,13 +2,15 @@
 ext-js:
   -
     href: "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/build/ol.js"
+js:
+  - "assets/js/member_map.js"
 ext-css:
   -
     href: "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css"
-js:
-  - "assets/js/member_map.js"
+css:
+  - "assets/css/map.css"
 ---
-<div id="map" class="map" style="height:700px;width: 100%"></div>
+<div id="map" class="map"></div>
 <ul>
 {% for member in site.data.members %}
   <li>{{ member.name }}</li>
