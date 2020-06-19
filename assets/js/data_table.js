@@ -1,3 +1,3 @@
 $(document).ready( function () {
-    $('#databases').DataTable();
+    $('#data-table').DataTable();
 } );

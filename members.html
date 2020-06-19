@@ -1,26 +1,36 @@
 ---
 ext-js:
-  -
-    href: "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/build/ol.js"
+  - "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/build/ol.js"
+  - "//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"
 js:
+  - "assets/js/data_table.js"
   - "assets/js/member_map.js"
 ext-css:
-  -
-    href: "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css"
+  - "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css"
+  - "//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
 css:
   - "assets/css/map.css"
 ---
 <div id="map" class="map"></div>
-<ul>
-{% for member in site.data.members %}
-  <li>{{ member.name }}</li>
-{% endfor %}
-</ul>
 
+<table id="data-table">
+  <thead>
+    <td>Library</td>
+    <td>Address</td>
+    <td>Payment methods</td>
+  </thead>
+  <tbody>
+  {% for member in site.data.members %}
+    <tr>
+      <td><a href="{{ member.url }}">{{ member.name }}</a></td>
+      <td>{{ member.address }}</td>
+      <td>
+        {% if member.payment_methods %}
+          {{ member.payment_methods | array_to_sentence_string }}
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
 
-{% for member in site.data.members %}
-  <div id="{{ member.name }}" class="ol-popup">
-     <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-     <div id="popup-content"></div>
-  </div>
-{% endfor %} 
