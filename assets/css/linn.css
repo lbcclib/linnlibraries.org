@@ -1,4 +1,12 @@
 .intro-header .page-heading h1 {
   border-bottom: teal solid 5px;
   color: #003232;
+  font-size: 3rem;
+}
+
+/* Push down the avatar to give more room for nav elements */
+@media (min-width: 768px) {
+  .navbar-custom .avatar-container {
+    margin-top: 6rem;
+  }
 }
