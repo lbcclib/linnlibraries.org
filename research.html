@@ -1,8 +1,25 @@
 ---
 title: Research and homework
+ext-css:
+  - "//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
+ext-js:
+  - "//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"
+js:
+  - "assets/js/research.js"
 ---
-<ul>
-{% for database in site.data.databases %}
-  <li>{{ database.name }}</li>
-{% endfor %}
-</ul>
+<table id="databases">
+  <thead>
+    <td>Name</td>
+    <td>Topics</td>
+    <td>Audience</td>
+  </thead>
+  <tbody>
+  {% for database in site.data.databases %}
+    <tr>
+      <td>{{ database.name }}</td>
+      <td>{{ database.topics | array_to_sentence_string }}</td>
+      <td>{{ database.audience | array_to_sentence_string }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
