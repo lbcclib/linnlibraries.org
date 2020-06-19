@@ -67,3 +67,76 @@
   phone_payments: false
   long: -122.9118119
   lat: 44.5492518
+- name: Lebanon Public Library
+  address: >
+    55 Academy St.
+    Lebanon, OR 97355
+  monday: 10:00-18:00
+  tuesday: 10:00-19:00
+  wednesday: 10:00-19:00
+  thursday: 10:00-18:00
+  friday: 10:00-17:00
+  saturday: 12:00-17:00
+  url: http://www.lebanonpubliclibrary.com
+  phone_payments: false
+  payment_methods:
+    - Cash
+    - Check
+    - Debit card
+    - Credit card
+  long: -122.9089838
+  lat: 44.5448978
+- name: Linn-Benton Community College Library
+  address: >
+    6500 Pacific Blvd SW
+    Albany, OR 97321
+  sunday: 11:00-16:00
+  monday: 7:30-21:00
+  tuesday: 7:30-21:00
+  wednesday: 7:30-21:00
+  thursday: 7:30-21:00
+  friday: 7:30-17:00
+  saturday: 11:00-16:00
+  url: https://library.linnbenton.edu
+  phone: 541-917-4638
+  phone_payments: false
+  long: -123.1131269
+  lat: 44.5868833
+- name: Scio Public Library
+  address: >
+    38957 NW 1st Ave
+    Scio, OR 97374
+  monday: 9:00-17:00
+  tuesday: 9:00-19:00
+  wednesday: 9:00-17:00
+  thursday: 9:00-17:00
+  friday: 9:00-17:00
+  url: http://ci.scio.or.us/library.htm
+  phone_payments: true
+  payment_methods:
+    - Cash
+    - Check
+    - Debit card
+    - Credit card
+  phone: 503-394-3342
+  long: -122.8498738
+  lat: 44.7047771
+- name: Sweet Home Public Library
+  address: >
+    1101 13th Ave
+    Sweet Home, OR 97386
+  monday: 10:00-18:00
+  tuesday: 10:00-18:00
+  thursday: 10:00-18:00
+  friday: 10:00-17:00
+  saturday: 10:00-15:00
+  url: https://www.sweethomeor.gov/library
+  phone_payments: true
+  payment_methods:
+    - Cash
+    - Check
+    - Debit card
+    - Credit card
+  phone: 503-394-3342
+  long: -122.7287694
+  lat: 44.3964149
