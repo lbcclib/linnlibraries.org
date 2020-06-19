@@ -18,3 +18,52 @@
   phone_payments: false
   long: -123.0773447
   lat: 44.628208
+- name: "Albany Public Library - Carnegie Branch"
+  address: >
+    302 Ferry Street SW
+    Albany, OR 97321
+  monday: 10:00-18:00
+  tuesday: 10:00-18:00
+  wednesday: 10:00-18:00
+  thursday: 10:00-18:00
+  friday: 10:00-18:00
+  url: https://library.cityofalbany.net
+  payment_methods:
+    - Cash
+    - Check
+    - Debit card
+    - Credit card
+  phone_payments: false
+  long: -123.1087657
+  lat: 44.6351578
+- name: Harrisburg Public Library
+  address: >
+    354 Smith St
+    PO Box 378
+    Harrisburg, OR 97446
+  tuesday: 13:00-17:00
+  wednesday: 13:00-17:00
+  thursday: 13:00-20:00
+  friday: 9:00-17:00
+  saturday: 10:00-15:30
+  url: https://www.ci.harrisburg.or.us/library
+  payment_methods:
+    - Cash
+    - Check
+  phone_payments: false
+  long: -123.1703346
+  lat: 44.27213
+- name: LBCC Healthcare Occupations Center Library
+  address: >
+    300 Mullins Dr
+    Lebanon, OR 97355
+  monday: 7:30-16:30
+  tuesday: 7:30-16:30
+  wednesday: 7:30-16:30
+  thursday: 7:30-16:30
+  friday: 7:30-16:30
+  url: https://library.linnbenton.edu/hoc
+  phone: 541-918-8840
+  phone_payments: false
+  long: -122.9118119
+  lat: 44.5492518
