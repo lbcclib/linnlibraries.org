@@ -12,13 +12,15 @@ js:
     <td>Name</td>
     <td>Topics</td>
     <td>Audience</td>
+    <td>Description</td>
   </thead>
   <tbody>
   {% for database in site.data.databases %}
     <tr>
-      <td>{{ database.name }}</td>
+      <td><a href="{{ database.url }}">{{ database.name }}</a></td>
       <td>{{ database.topics | array_to_sentence_string }}</td>
       <td>{{ database.audience | array_to_sentence_string }}</td>
+      <td>{{ database.description }}</td>
     </tr>
   {% endfor %}
   </tbody>
