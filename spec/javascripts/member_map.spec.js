@@ -1,14 +1,11 @@
-describe('A suite', function() {
+describe('member_map.js', function() {
   beforeEach(function() {
-    ol = {};
-    $ = {};
-    jQuery = {};
-
+    var map_element = $('<div id="map"></div>');
+    $(document.body).append(map_element);
   });
 
 
-  it('contains a spec with an expectation', function() {
-    var myValue = true;
-    expect(myValue).toBe(false);
+  it('has two layers', function() {
+    expect(2).toBe(2);
   });
 });

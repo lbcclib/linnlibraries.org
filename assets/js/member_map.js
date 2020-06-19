@@ -2,17 +2,11 @@
 layout: none
 ---
 
-// Basic map
-var map = new ol.Map({
-  target: 'map',
-  layers: [
-    new ol.layer.Tile({
-      source: new ol.source.OSM()
-    })
-  ],
-  view: new ol.View({
-    center: ol.proj.fromLonLat([-122.95198, 44.4817168]),
-    zoom: 10
+var libraryStyle = new ol.style.Style({
+  text: new ol.style.Text({
+    text: 'local_library',
+    font: 'normal 22px Material Icons',
+    fill: new ol.style.Fill({color: '#FF0000'})
   })
 });
 
@@ -25,53 +19,56 @@ for (i = 0; i < members.length; i++) {
     geometry: new ol.geom.Point(ol.proj.fromLonLat([
       members[i]['long'],
       members[i]['lat']
-    ]))
+    ])),
+    name: members[i]['name'],
+    url: members[i]['url'],
   });
+  features[i].setStyle(libraryStyle);
 }
 
-var layer = new ol.layer.Vector({
-  source: new ol.source.Vector({
-    features: features
+// Basic map
+var map = new ol.Map({
+  target: 'map',
+  layers: [
+    new ol.layer.Tile({
+      source: new ol.source.OSM()
+    }),
+    new ol.layer.Vector({
+      source: new ol.source.Vector({
+        features: features
+      })
+    }),
+  ],
+  view: new ol.View({
+    center: ol.proj.fromLonLat([-122.95198, 44.4817168]),
+    zoom: 10
   })
 });
-map.addLayer(layer);
 
 
-// Add popup for each marker
 
-for (i = 0; i < members.length; i++) {
-  var container = document.getElementById(members[i]['name']);
-  var content = document.getElementById('popup-content');
-  var closer = document.getElementById('popup-closer');
-  var htmlContent = '<a href="' + members[i]['url'] + '">' + members[i]['name'] + '</a>';
+var popup_overlay = new ol.Overlay({
+    element: document.getElementById('popup'),
+    stopEvent: false,
+    offset: [21, -126]
+});
 
-  var overlay = new ol.Overlay({
-    element: container,
-    autoPan: true,
-    autoPanAnimation: {
-      duration: 250
+map.addOverlay(popup_overlay);
+
+
+map.on('click', function(evt) {
+
+    $('#popup').popover('dispose');
+    var feature = map.forEachFeatureAtPixel(evt.pixel,
+        function(feature) {
+            return feature;
+        });
+    if (feature) {
+        popup_overlay.setPosition(feature.getGeometry().getCoordinates());
+        $('#popup').popover({
+            'html': true,
+            'content': '<a href="' + feature.get('url') + '">' + feature.get('name') + '</a>'
+        });
+        $('#popup').popover('show');
     }
-  });
-  map.addOverlay(overlay);
-
-  closer.onclick = function() {
-    overlay.setPosition(undefined);
-    closer.blur();
-    return false;
-  };
-
-
-  map.on('singleclick', function (event) {
-    if (map.hasFeatureAtPixel(event.pixel) === true) {
-      var coordinate = event.coordinate;
-
-      content.innerHTML = htmlContent;
-      overlay.setPosition(coordinate);
-    } else {
-      overlay.setPosition(undefined);
-      closer.blur();
-    }
-  });
-}
-
-
+});

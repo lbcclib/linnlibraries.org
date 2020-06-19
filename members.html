@@ -8,16 +8,20 @@ js:
 ext-css:
   - "//cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css"
   - "//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
+  - "https://fonts.googleapis.com/icon?family=Material+Icons"
 css:
   - "assets/css/map.css"
 ---
 <div id="map" class="map"></div>
+<div id="popup"></div>
 
 <table id="data-table">
   <thead>
-    <td>Library</td>
-    <td>Address</td>
-    <td>Payment methods</td>
+    <tr>
+      <td>Library</td>
+      <td>Address</td>
+      <td>Payment methods</td>
+    </tr>
   </thead>
   <tbody>
   {% for member in site.data.members %}
