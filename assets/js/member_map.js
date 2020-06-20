@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 ---
 
 var libraryStyle = new ol.style.Style({
