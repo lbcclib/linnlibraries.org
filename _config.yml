@@ -32,3 +32,5 @@ hover-col: "red"
 footer-col: "#eff7f7"
 footer-text-col: "red"
 footer-link-col: "teal"
+
+exclude: [Gemfile, Gemfile.lock, Rakefile, README.md, spec, vendor]
