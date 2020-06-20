@@ -1,0 +1,25 @@
+---
+title: Overview of circulation configuration in Evergreen
+---
+<h2>Overview</h2>
+<p>There are hold rules, circ rules, library settings, and triggers.</p><dl><dt> Hold rules </dt><dd> Who can place what on hold, etc.</dd><dt>Circ rules</dt><dd>Who can check out what, for how long, with how many renewals, how much the fines are per-day late, and so on.</dd><dt>Library settings</dt><dd> What happens (with items, bills, fees, fines, etc) when things are lost, or are returned after being lost or damaged.  (There's a zillion other settings, but these are the ones we were talking about.)</dd><dt> Triggers</dt><dd>Things that happen automatically over time. There are triggers that mark overdue items as <u>lost</u> (at a given number of days after the due date has passed), and others that send out notices.</dd></dl>
+
+<p>Hold rules and circ rules are based primarily on which library owns the item.  Library settings and Triggers are <u>not</u>. We thought they were, but it turns out they are based on <u>circulating library</u>, which is the building the checkout takes place at.</p>
+
+<h2>Example scenario</h2>
+<p>Example: an Albany patron checks out a book IN Scio</p>
+
+<p>In this example, Scio's circ rules apply.  This is because it is a Scio book, not because the patron checked it out in Scio. If, however, Albany owned that book, then Albany's circ rules would apply. (Even though it checked out in Scio, it is an Albany book, and gets Albany circ rules.)</p>
+
+<p>Checkout time is part of circ rules, not settings or triggers. So a book from Scio (that the courier delivers to Albany) when checked out at Albany will check out for 2 weeks, because it is a Scio item, and that is what Scio's circ rules dictate will happen.</p>
+
+<p>The fine structure for overdues is also part of the circ rules... Scio items get Scio overdue fines.  Albany items get Albany overdue fines. If we think something other than that has happened, email the barcodes of the patron and the items to Jeremy so he can look into it.</p>
+
+<p>Grace periods are part of the circ rules.</p>
+
+<h2>Examples of Library Settings relevant to circulation</h2>
+<ul><li>If an item is marked lost (automatically or by staff), do you charge a processing fee?  How much? </li><li>Do you want to bill them for replacement?</li><li> Do you want to dismiss overdue fines on that item when you add the replacement bill, or retain them?</li><li> Do you want to dismiss the replacement bill if they return the item?&nbsp; What about the processing fee?</li><li> Will you want those old overdue fines to get put back on it?</li><li> Do you want to add more overdue fines to cover the additional time?</li><li> What if they've already paid for any of it... do you give refunds?</li><li> Is there a limit on how long it can have been gone, beyond which you will no longer accept it back?</li></ul><p>There are many more than that, but you get the idea.&nbsp; The point was that these things are NOT based on who owns the item, but on where it checked out.&nbsp; An checkout that happens at Scio gets Scio&#39;s library settings, no matter who the patron is or who owns the item.</p>
+
+<h2>Examples of Triggers relevant to circulation</h2>
+<ul><li>When do your first overdue notices go out, and what do they say?</li><li>What about the second overdue notices?&nbsp; Or any additional overdue notices?</li><li>How long after the item is overdue do you want it to automatically be marked <u>lost</u>?</li></ul><p>Same deal with these. Doesn't matter who owns the item, the patron gets overdue notices from the library it was checked out at, on whatever schedule they send their notices at.&nbsp; And it gets marked lost when the checkout library says it should get marked lost.</p></div></div></div>
+  

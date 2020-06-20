@@ -20,7 +20,7 @@ navbar-links:
   Research and homework: "research"
   Member libraries: "members"
   Staff tools:
-    - Circulation policies: "staff-tools/circulation-policies"
+    - Circulation: "staff-tools/circulation/index"
     - Cataloging: "staff-tools/cataloging/index"
 
 navbar-col: "#eff7f7"
