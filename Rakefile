@@ -12,7 +12,9 @@ require 'jekyll'
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:rspec)
 
-task default: %i[build rubocop rspec jasmine:ci check_links]
+require 'html-proofer'
+
+task default: %i[build rubocop rspec jasmine:ci]
 
 desc 'Build the site in the _site directory'
 task :build do
@@ -20,11 +22,14 @@ task :build do
   Jekyll::Commands::Build.process(profile: true)
 end
 
-desc 'Check all external links'
-task :check_links do
-  require 'link_checker'
-  LinkChecker.new(
-    target: '_site',
-    options: { no_warnings: true }
-  ).check_uris
+desc 'Check generated html'
+task :check_html do
+  options = {
+    assume_extension: true,
+    typhoeus: {
+      ssl_verifypeer: false,
+      ssl_verifyhost: 0
+    }
+  }
+  HTMLProofer.check_directory('./_site', options).run
 end

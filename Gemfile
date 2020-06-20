@@ -14,9 +14,9 @@ gem 'jekyll-remote-theme'
 
 group :development, :test do
   gem 'capybara'
+  gem 'html-proofer'
   gem 'jasmine'
   gem 'jasmine_selenium_runner'
-  gem 'link-checker'
   gem 'rack-jekyll'
   gem 'rspec'
   gem 'rubocop'

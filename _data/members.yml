@@ -77,7 +77,7 @@
   thursday: 10:00-18:00
   friday: 10:00-17:00
   saturday: 12:00-17:00
-  url: http://www.lebanonpubliclibrary.com
+  url: https://www.ci.lebanon.or.us/library
   phone_payments: false
   payment_methods:
     - Cash
@@ -97,7 +97,7 @@
   thursday: 7:30-21:00
   friday: 7:30-17:00
   saturday: 11:00-16:00
-  url: https://library.linnbenton.edu/home
+  url: https://library.linnbenton.edu
   phone: 541-917-4638
   phone_payments: false
   long: -123.1131269

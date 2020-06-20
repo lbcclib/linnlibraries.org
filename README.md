@@ -13,11 +13,13 @@ Install ruby, then:
 ## Running automated tests
 
 Before running, make sure that gecko webdriver is installed and on your path.
-The following will run jekyll, rspec, jasmine, rubocop, and the link checker:
+The following will run jekyll, rspec, jasmine, and rubocop.
 
     bundle exec rake
 
-You can list the individual checks with `bundle exec rake -T`.
+You can list the individual checks with `bundle exec rake -T`. The default rake
+task doesn't yet run the html/link checker, which you can run with
+`bundle exec rake check_html`.
 
 ## Updating dependencies
 
