@@ -16,6 +16,7 @@ group :development, :test do
   gem 'capybara'
   gem 'jasmine'
   gem 'jasmine_selenium_runner'
+  gem 'link-checker'
   gem 'rack-jekyll'
   gem 'rspec'
   gem 'rubocop'

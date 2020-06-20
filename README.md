@@ -1,12 +1,23 @@
 # linnlibraries.org
 
+## Setting up a dev environment
+
+Install ruby, then:
+
+    gem install bundler
+    git clone https://github.com/lbcclib/linnlibraries.org
+    cd linnlibraries.org
+    bundle
+    bundle exec jekyll serve # This will serve the site at localhost:4000
+
 ## Running automated tests
 
-The following will run jekyll, rspec, jasmine, and rubocop:
+Before running, make sure that gecko webdriver is installed and on your path.
+The following will run jekyll, rspec, jasmine, rubocop, and the link checker:
 
-    bundle install
     bundle exec rake
 
+You can list the individual checks with `bundle exec rake -T`.
 
 ## Updating dependencies
 
