@@ -27,7 +27,11 @@
         {% endif %}
       {% endif%}
       &nbsp;&bull;&nbsp;
-      Version <a href="{{site.github.repository_url}}/edit/master/{{ page.path }}">{{ site.github.build_revision | slice: 0, 7 }}</a>
+      {% if site.github.repository_url %}
+        Version <a id="edit-on-gh-link" href="{{site.github.repository_url}}/edit/master/{{ page.path }}">{{ site.github.build_revision | slice: 0, 7 }}</a>
+      {% else %}
+        <a id="edit-on-gh-link" href="https://github.com/lbcclib/linnlibraries.org/edit/master/{{ page.path }}">Development version</a>
+      {% endif %}
       </p>
       <!-- Please don't remove this, keep my open source work credited :) -->
       <p class="theme-by text-muted">

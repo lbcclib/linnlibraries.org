@@ -1,4 +1,6 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -9,4 +11,13 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem 'github-pages'
 gem 'jekyll-remote-theme'
-gem 'jasmine'
+
+group :development, :test do
+  gem 'capybara'
+  gem 'jasmine'
+  gem 'jasmine_selenium_runner'
+  gem 'rack-jekyll'
+  gem 'rspec'
+  gem 'rubocop'
+  gem 'selenium-webdriver'
+end

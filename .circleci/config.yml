@@ -1,11 +1,14 @@
 version: 2.1
 orbs:
   ruby: circleci/ruby@0.1.2 
+  browser-tools: circleci/browser-tools@1.0.1
 
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6.3-stretch-node
+      - image: circleci/ruby:2.7.1-buster-node
+    environment:
+      - JASMINE_BROWSER: firefox
     executor: ruby/default
     steps:
       - checkout
@@ -15,8 +18,14 @@ jobs:
           name: Which bundler?
           command: bundle -v
       - ruby/bundle-install
+      - browser-tools/install-firefox
+      - browser-tools/install-geckodriver
       - run:
           name: Generate everything
           command: bundle exec jekyll build
       - run:
-          command: bundle exec rake jasmine:ci
+          command: bundle exec rubocop
+      - run:
+          command: bundle exec rspec
+      - run:
+          command: xvfb-run -a bundle exec rake jasmine:ci
