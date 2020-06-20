@@ -2,8 +2,11 @@
 
 ## Running automated tests
 
+The following will run jekyll, rspec, jasmine, and rubocop:
+
     bundle install
-    rake jasmine # run the JS tests
+    bundle exec rake
+
 
 ## Updating dependencies
 

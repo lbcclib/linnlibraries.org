@@ -21,11 +21,5 @@ jobs:
       - browser-tools/install-firefox
       - browser-tools/install-geckodriver
       - run:
-          name: Generate everything
-          command: bundle exec jekyll build
-      - run:
-          command: bundle exec rubocop
-      - run:
-          command: bundle exec rspec
-      - run:
-          command: xvfb-run -a bundle exec rake jasmine:ci
+          name: Run all the tests
+          command: xvfb-run -a bundle exec rake
