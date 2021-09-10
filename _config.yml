@@ -19,6 +19,7 @@ navbar-links:
   Books and more: "https://catalog.linnlibraries.org/"
   Research and homework: "research"
   Member libraries: "members"
+  Literacy partnership: "https://literacy.linnlibraries.org/"
   Staff tools:
     - Circulation: "staff-tools/circulation/index"
     - Cataloging: "staff-tools/cataloging/index"
