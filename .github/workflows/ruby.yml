@@ -23,6 +23,7 @@ jobs:
 
     steps:
     - uses: browser-actions/setup-firefox@latest
+    - uses: browser-actions/setup-geckodriver@latest
     - uses: actions/checkout@v2
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
