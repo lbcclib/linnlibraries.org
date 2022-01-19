@@ -38,7 +38,7 @@ RSpec.configure do |config|
     Capybara.app = Rack::Jekyll.new(force_build: true)
 
     # Sleep a while to let the site build. Tell the user what you're doing.
-    @wait_for_jekyll = 2
+    @wait_for_jekyll = 15
     puts "\nWaiting #{@wait_for_jekyll} seconds for the site to build.\n\n"
     @wait_for_jekyll.times { sleep 1 }
 
