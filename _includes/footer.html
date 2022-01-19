@@ -28,7 +28,7 @@
       {% endif%}
       &nbsp;&bull;&nbsp;
       {% if site.github.repository_url %}
-        Version <a id="edit-on-gh-link" href="{{site.github.repository_url}}/edit/master/{{ page.path }}">{{ site.github.build_revision | slice: 0, 7 }}</a>
+        Version <a id="edit-on-gh-link" href="{{site.github.repository_url}}/edit/master/{{ page.path }}">{{ site.github.build_revision | slice: 0, 7 }} - edit this page</a>
       {% else %}
         <a id="edit-on-gh-link" href="https://github.com/lbcclib/linnlibraries.org/edit/master/{{ page.path }}">Development version</a>
       {% endif %}
