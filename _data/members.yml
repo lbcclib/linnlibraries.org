@@ -62,7 +62,7 @@
   wednesday: 7:30-16:30
   thursday: 7:30-16:30
   friday: 7:30-16:30
-  url: https://library.linnbenton.edu/hoc
+  url: https://www.linnbenton.edu/library
   phone: 541-918-8840
   phone_payments: false
   long: -122.9118119
@@ -97,7 +97,7 @@
   thursday: 7:30-21:00
   friday: 7:30-17:00
   saturday: 11:00-16:00
-  url: https://library.linnbenton.edu
+  url: https://www.linnbenton.edu/library
   phone: 541-917-4638
   phone_payments: false
   long: -123.1131269
